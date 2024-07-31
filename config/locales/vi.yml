@@ -1,0 +1,19 @@
+vi:
+  language:
+    english: "Tiếng Anh"
+    vietnamese: "Tiếng Việt"
+  auth:
+    login: "Đăng nhập"
+  layouts:
+    base_title: "Khóa học Ruby on Rails"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      introduction: "Đây là trang chủ cho"
+      tutorial: "Khóa học Ruby on Rails với sample application"
+    help:
+      help: "Trợ giúp"
+      rails_help_message: "Nhận sự trợ giúp về Ruby on Rails tại"
+      rails_help_url: "trang trợ giúp khóa học Rails"
+      rails_tutorial_message: "Nhận sự trợ giúp về sample app này tại"
+      rails_tutorial_url: "Sách hướng dẫn Ruby on Rails"

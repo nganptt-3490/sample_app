@@ -1,0 +1,8 @@
+<% provide :title, t("static_pages.home.home") %>
+<h1><%= t "static_pages.home.home" %></h1>
+<p>
+  <%= t "static_pages.home.introduction" %>
+  <%= link_to Settings.home_url do %>
+    <%= t "static_pages.home.tutorial" %>.
+  <% end %>
+</p>
