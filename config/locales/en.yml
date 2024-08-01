@@ -3,7 +3,15 @@ en:
     english: "English"
     vietnamese: "Vietnamese"
   auth:
+    name: "Name"
+    email: "Email"
+    password: "Password"
     login: "Login"
+    signup:
+      signup: "Sign up"
+      signup_success: "User created successfully"
+      signup_button: "Create my account"
+      confirmation: "Password Confirmation"
   layouts:
     base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
@@ -17,3 +25,8 @@ en:
       rails_help_url: "Rails Tutorial help page"
       rails_tutorial_message: "To get help on this sample app, see the"
       rails_tutorial_url: "Ruby on Rails Tutorial book"
+  users:
+    not_found_user: "Not found user!"
+  errors:
+    error: "error(s)"
+    the_form_contains: "The form contains"
