@@ -1,3 +1,6 @@
 home_url: "http://www.railstutorial.org/"
 rails_help_url: "http://www.railstutorial.org/help"
 rails_tutorial_url: "http://www.railstutorial.org/book"
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+email_validate: 255
+name_validate: 50
