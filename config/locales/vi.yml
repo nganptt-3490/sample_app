@@ -6,12 +6,17 @@ vi:
     name: "Tên"
     email: "Email"
     password: "Mật khẩu"
-    login: "Đăng nhập"
+    login:
+      login: "Đăng nhập"
+      invalid_email_password_combination: "Sai thông tin đăng nhập. Vui lòng xem lại email và mật khẩu."
+      new_user: "Người dùng mới?"
+      sign_up_now: "Tạo tài khoản ngay"
     signup:
       signup: "Đăng ký"
       signup_success: "Đăng ký tài khoản thành công"
       signup_button: "Tạo tài khoản"
       confirmation: "Xác nhận lại mật khẩu"
+    logout: "Đăng xuất"
   layouts:
     base_title: "Khóa học Ruby on Rails"
   static_pages:
@@ -25,6 +30,10 @@ vi:
       rails_help_url: "trang trợ giúp khóa học Rails"
       rails_tutorial_message: "Nhận sự trợ giúp về sample app này tại"
       rails_tutorial_url: "Sách hướng dẫn Ruby on Rails"
+    users: "Người dùng"
+    account: "Tài khoản"
+    profile: "Thông tin cá nhân"
+    setting: "Cài đặt"
   users:
     not_found_user: "Không tìm thấy người dùng này!"
   errors:
