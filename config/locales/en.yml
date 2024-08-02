@@ -6,12 +6,17 @@ en:
     name: "Name"
     email: "Email"
     password: "Password"
-    login: "Login"
+    login:
+      login: "Login"
+      invalid_email_password_combination: "Invalid email password combination"
+      new_user: "New user?"
+      sign_up_now: "Sign up now"
     signup:
       signup: "Sign up"
       signup_success: "User created successfully"
       signup_button: "Create my account"
       confirmation: "Password Confirmation"
+    logout: "Log out"
   layouts:
     base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
@@ -25,6 +30,10 @@ en:
       rails_help_url: "Rails Tutorial help page"
       rails_tutorial_message: "To get help on this sample app, see the"
       rails_tutorial_url: "Ruby on Rails Tutorial book"
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    setting: "Setting"
   users:
     not_found_user: "Not found user!"
   errors:
