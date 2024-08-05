@@ -11,3 +11,5 @@ pages:
 avt_size:
   size_50: 50
   size_80: 80
+pwd_reset_expired_hours:
+  hour_2: 2

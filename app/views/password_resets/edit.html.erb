@@ -1,0 +1,20 @@
+<% provide :title, t("password_reset.pwd_reset") %>
+<h1><%= t "password_reset.pwd_reset" %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_with model: @user, url: password_reset_path(params[:id]), local: true, data: { turbo: false } do |f| %>
+      <%= render "shared/error_messages" %>
+
+      <%= hidden_field_tag :email, @user.email %>
+
+      <%= f.label :password, t("auth.password") %>
+      <%= f.password_field :password, class: "form-control" %>
+
+      <%= f.label :password_confirmation, t("auth.signup.confirmation") %>
+      <%= f.password_field :password_confirmation, class: "form-control" %>
+
+      <%= f.submit t("password_reset.update_pwd"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

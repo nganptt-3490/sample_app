@@ -62,3 +62,18 @@ vi:
     hi: "Xin chào"
     activate: "Kích hoạt"
     not_activated: "Tài khoản này chưa được kích hoạt. Kiểm tra email để lấy liên kết."
+  password_reset:
+    check_email: "Kiểm tra email để lấy liên kết đổi mật khẩu"
+    password_blank: "không được để trống"
+    change_pwd_success: "Thay đổi mật khẩu thành công"
+    expired: "Yêu cầu thay đổi mật khẩu đã quá hạn"
+    pwd_reset: "Thay đổi mật khẩu"
+    update_pwd: "Cập nhật mật khẩu"
+    submit: "Gửi"
+    forgot: "Quên mật khẩu"
+    forgot(): "(quên mật khẩu)"
+    reset_pwd: "Thay đổi mật khẩu"
+    to_reset_pwd: "Để thay đổi mật khẩu, vui lòng nhấn vào đường link dưới đây:"
+    expired_time: "Liên kết này khả dụng trong vòng 2 giờ."
+    ignore_mail: "Nếu bạn không gửi yêu cầu thay đổi mật khẩu. Vui lòng bỏ qua email này,
+    mật khẩu của bạn sẽ không bị thay đổi."
