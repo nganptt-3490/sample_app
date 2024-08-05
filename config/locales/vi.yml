@@ -11,6 +11,7 @@ vi:
       invalid_email_password_combination: "Sai thông tin đăng nhập. Vui lòng xem lại email và mật khẩu."
       new_user: "Người dùng mới?"
       sign_up_now: "Tạo tài khoản ngay"
+      remember_me: "Duy trì đăng nhập"
     signup:
       signup: "Đăng ký"
       signup_success: "Đăng ký tài khoản thành công"

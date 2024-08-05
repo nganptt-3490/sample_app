@@ -11,6 +11,7 @@ en:
       invalid_email_password_combination: "Invalid email password combination"
       new_user: "New user?"
       sign_up_now: "Sign up now"
+      remember_me: "Remember me on this computer"
     signup:
       signup: "Sign up"
       signup_success: "User created successfully"
