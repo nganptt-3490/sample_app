@@ -37,6 +37,19 @@ en:
     setting: "Setting"
   users:
     not_found_user: "Not found user!"
+    edit_user: "Edit user"
+    save_changes: "Save changes"
+    avt_change: "Change"
+    all_users: "All users"
+    update_your_profile: "Update your profile"
+    delete: "Delete"
+  noti:
+    update_success: "Updated successfully!"
+    delete_success: "Deleted successfully!"
+    delete_fail: "Delete failed!"
+    you_sure: "You sure?"
   errors:
     error: "error(s)"
     the_form_contains: "The form contains"
+    please_log_in: "Please log in!"
+    you_cannot_edit_this_account: "You cannot edit this account!"

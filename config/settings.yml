@@ -4,3 +4,10 @@ rails_tutorial_url: "http://www.railstutorial.org/book"
 email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 email_validate: 255
 name_validate: 50
+digits:
+  digit_6: 6
+pages:
+  page_10: 10
+avt_size:
+  size_50: 50
+  size_80: 80

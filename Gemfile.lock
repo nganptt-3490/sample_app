@@ -99,6 +99,8 @@ GEM
     deep_merge (1.2.2)
     erubi (1.13.0)
     execjs (2.9.1)
+    faker (2.21.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-arm-linux-gnu)
     ffi (1.17.0-arm64-darwin)
@@ -159,6 +161,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
+    pagy (9.0.5)
     parallel (1.25.1)
     parser (3.3.4.0)
       ast (~> 2.4.1)
@@ -298,9 +301,11 @@ DEPENDENCIES
   capybara
   config
   debug
+  faker (= 2.21.0)
   importmap-rails
   jbuilder
   mysql2 (~> 0.5)
+  pagy
   puma (~> 5.0)
   rails (~> 7.0.5)
   rails-i18n
