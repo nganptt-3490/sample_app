@@ -53,3 +53,12 @@ vi:
     the_form_contains: "Biểu mẫu bao gồm"
     please_log_in: "Xin hãy đăng nhập!"
     you_cannot_edit_this_account: "Bạn không thể chỉnh sửa thông tin tài khoản này!"
+  account_active:
+    success: "Kích hoạt tài khoản thành công"
+    fail: "Liên kết không khả dụng"
+    check_email: "Kiểm tra email để kích hoạt tài khoản."
+    account_activation: "Kích hoạt tài khoản"
+    email_content: "Chào mừng đến với Sample App! Vui lòng nhấn vào liên kết dưới đây để kích hoạt tài khoản:"
+    hi: "Xin chào"
+    activate: "Kích hoạt"
+    not_activated: "Tài khoản này chưa được kích hoạt. Kiểm tra email để lấy liên kết."
