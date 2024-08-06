@@ -1,0 +1,8 @@
+<li>
+  <%= gravatar_for user, size: Settings.avt_size.size_50 %>
+  <%= link_to user.name, user %>
+  <% if can_destroy_user? user %>
+    | <%= link_to t("users.delete"), user, data: {"turbo-method": :delete,
+                                          turbo_confirm: t("noti.you_sure")} %>
+  <% end %>
+</li>

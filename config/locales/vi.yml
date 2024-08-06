@@ -37,6 +37,19 @@ vi:
     setting: "Cài đặt"
   users:
     not_found_user: "Không tìm thấy người dùng này!"
+    edit_user: "Chỉnh sửa thông tin người dùng"
+    save_changes: "Lưu thay đổi"
+    avt_change: "Thay đổi"
+    all_users: "Tất cả người dùng"
+    update_your_profile: "Thay đổi thông tin cá nhân"
+    delete: "Xóa"
+  noti:
+    update_success: "Cập nhật thành công"
+    delete_success: "Xóa thành công"
+    delete_fail: "Xóa thất bại"
+    you_sure: "Bạn có chắc chắn xóa không?"
   errors:
     error: "lỗi"
     the_form_contains: "Biểu mẫu bao gồm"
+    please_log_in: "Xin hãy đăng nhập!"
+    you_cannot_edit_this_account: "Bạn không thể chỉnh sửa thông tin tài khoản này!"

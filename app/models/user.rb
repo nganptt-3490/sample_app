@@ -8,6 +8,9 @@ class User < ApplicationRecord
   validates :name, presence: true, length: {maximum: Settings.name_validate}
   validates :email, presence: true, length: {maximum: Settings.email_validate},
   format: {with: Settings.email_regex}, uniqueness: true
+  validates :password, presence: true,
+                       length: {minimum: Settings.digits.digit_6},
+                       allow_nil: true
 
   has_secure_password
 
@@ -38,6 +41,8 @@ class User < ApplicationRecord
   def authenticated? remember_token
     BCrypt::Password.new(remember_digest).is_password? remember_token
   end
+
+  scope :sorted, -> { order(name: :asc) }
 
   private
 
