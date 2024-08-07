@@ -62,3 +62,18 @@ en:
     hi: "Hi"
     activate: "Activate"
     not_activated: "Account not activated. Check your email for the activation link."
+  password_reset:
+    check_email: "Check email to get password reset link"
+    password_blank: "can not be blank"
+    change_pwd_success: "Change password succesfully"
+    expired: "Password reset has expired."
+    pwd_reset: "Password Reset"
+    update_pwd: "Update password"
+    submit: "Submit"
+    forgot: "Forgot password"
+    forgot(): "(forgot password)"
+    reset_pwd: "Reset password"
+    to_reset_pwd: "To reset your password click the link below:"
+    expired_time: "This link will expire in two hours."
+    ignore_mail: "If you did not request your password to be reset, please ignore this email and your password will stay
+  as it is."
