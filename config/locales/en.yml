@@ -53,3 +53,12 @@ en:
     the_form_contains: "The form contains"
     please_log_in: "Please log in!"
     you_cannot_edit_this_account: "You cannot edit this account!"
+  account_active:
+    success: "Account activated!"
+    fail: "Invalid activation link"
+    check_email: "Please check your email to activate your account."
+    account_activation: "Accout activation"
+    email_content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    hi: "Hi"
+    activate: "Activate"
+    not_activated: "Account not activated. Check your email for the activation link."
