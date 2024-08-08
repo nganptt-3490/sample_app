@@ -73242,6 +73242,13 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
       ]
     }
   },
+  "follow": {
+    "follow": "Follow",
+    "follower": "Followers",
+    "following": "Following",
+    "not_follow_yet": "Not follow this user yet",
+    "unfollow": "Unfollow"
+  },
   "helpers": {
     "select": {
       "prompt": "Please select"
