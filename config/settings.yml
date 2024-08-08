@@ -5,7 +5,10 @@ email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 email_validate: 255
 name_validate: 50
 digits:
+  ditgit_5: 5
   digit_6: 6
+  digit_140: 140
+  digit_500: 500
 pages:
   page_10: 10
 avt_size:
@@ -13,3 +16,5 @@ avt_size:
   size_80: 80
 pwd_reset_expired_hours:
   hour_2: 2
+image_type: ["image/jpeg", "image/gif", "image/png"]
+image_type_string: "image/jpeg,image/gif,image/png"

@@ -77,3 +77,18 @@ en:
     expired_time: "This link will expire in two hours."
     ignore_mail: "If you did not request your password to be reset, please ignore this email and your password will stay
   as it is."
+  microposts:
+    create_success: "Micropost created succesfully"
+    delete_fail: "Micropost delete failed"
+    invalid: "Micropost invalid"
+    micropost_deleted: "Micropost deleted succesfully"
+    must_be_valid: "must be a valid image format"
+    less_than_5mb: "should be less than 5MB"
+    posted_ago: "Posted %{time} ago"
+    placeholder: "Compose new micropost..."
+    submit: "Post"
+    view_my_profile: "View my profile"
+    microposts: "microposts"
+    micropost_feed: "Micropost Feed"
+    no_post: "No posts yet"
+    max_5mb: "Attachments need to be less than 5MB. Please select the appropriate file size."

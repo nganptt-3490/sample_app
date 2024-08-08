@@ -5,6 +5,8 @@ class User < ApplicationRecord
 
   before_create :create_activation_digest
 
+  has_many :microposts, dependent: :destroy
+
   ATTRIBUTE_PERMITTED = %i(name email password password_confirmation).freeze
   USER_PARAMS_PWD = %i(password password_confirmation).freeze
 
@@ -19,6 +21,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.pwd_reset_expired_hours.hour_2.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   def create_reset_digest
