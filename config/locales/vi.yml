@@ -93,3 +93,9 @@ vi:
     micropost_feed: "Trang chủ"
     no_post: "Không có bài đăng nào"
     max_5mb: "Tệp đính kèm cần bé hơn 5MB. Vui lòng chọn tệp có kích thước phù hợp."
+  follow:
+    not_follow_yet: "Chưa follow người dùng này"
+    following: "Đang theo dõi"
+    follower: "Người theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Hủy theo dõi"
