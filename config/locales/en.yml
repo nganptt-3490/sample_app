@@ -92,3 +92,9 @@ en:
     micropost_feed: "Micropost Feed"
     no_post: "No posts yet"
     max_5mb: "Attachments need to be less than 5MB. Please select the appropriate file size."
+  follow:
+    not_follow_yet: "Not follow this user yet"
+    following: "Following"
+    follower: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"

@@ -12,6 +12,7 @@ digits:
 pages:
   page_10: 10
 avt_size:
+  size_30: 30
   size_50: 50
   size_80: 80
 pwd_reset_expired_hours:
