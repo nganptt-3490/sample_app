@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(edit update destroy)
+  before_action :logged_in_user, except: %i(index new create)
   before_action :find_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy User.sorted, limit: Settings.pages.page_10
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts, limit: Settings.pages.page_10
+  end
 
   def new
     @user = User.new
@@ -57,14 +59,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "users.not_found_user"
     redirect_to root_url
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    flash[:danger] = t "errors.please_log_in"
-    store_location
-    redirect_to login_url
   end
 
   def correct_user
