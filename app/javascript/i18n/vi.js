@@ -611,6 +611,13 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
       ]
     }
   },
+  "follow": {
+    "follow": "Theo dõi",
+    "follower": "Người theo dõi",
+    "following": "Đang theo dõi",
+    "not_follow_yet": "Chưa follow người dùng này",
+    "unfollow": "Hủy theo dõi"
+  },
   "helpers": {
     "select": {
       "prompt": "Vui lòng chọn"
